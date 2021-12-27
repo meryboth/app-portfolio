@@ -21,7 +21,6 @@
             {{ Form::text('url', $proyecto->url, ['class' => 'form-control' . ($errors->has('url') ? ' is-invalid' : ''), 'placeholder' => 'Url']) }}
             {!! $errors->first('url', '<div class="invalid-feedback">:message</p>') !!}
         </div>
-
     </div>
     <div class="box-footer mt20">
         <button type="submit" class="btn btn-primary">Submit</button>
