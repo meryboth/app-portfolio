@@ -18,13 +18,28 @@ Route::get('/perfil', [App\Http\Controllers\PortafolioController::class, 'index'
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('index');
-})->name('landing');
-
 /* Ruta agregar proyectos */
 Route::resource('/proyectos', App\Http\Controllers\ProyectoController::class);
 /* Ruta dashboard del usuario al loguearse */
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+/* Ruta del landing page */
+Route::get('/', function () {
+    return view('index');
+})->name('landing');
+
+/* Ruta Coleccion */
+Route::get('/coleccion', function () {
+    return view('coleccion');
+})->name('coleccion');
+
+/* Ruta Nosotros */
+Route::get('/nosotros', function () {
+    return view('nosotros');
+})->name('nosotros');
+
+/* Ruta Contacto */
+Route::get('/contacto', function () {
+    return view('contacto');
+})->name('contacto');
 

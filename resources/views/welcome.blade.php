@@ -1,6 +1,9 @@
 @extends('layouts.template')
 
 @section('content')
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
 <section class="container bg-light my-5 border rounded-3">
     <div class="d-flex justify-content-center m-1">
         <img src="https://i.ibb.co/vQsCbZc/image.jpg" class="rounded-circle">
@@ -68,9 +71,13 @@
 </div>
 @endforeach
 
+</div>
+</div>
+</section>
+
 <!-- Agregar porfolio -->
-<section>
-    <div class="row">
+<section class="container">
+    <div class="row mb-5">
         <a href="{{ route('proyectos.index') }}">
             <div class="bg-white rounded shadow-sm text-center "><div class="img-fluid bg-light card-img-top d-flex flex-column justify-content-center align-items-center"><img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center"></div>
               <div class="p-4">
@@ -81,5 +88,6 @@
         </a>
       </div>
 </section>
+
 
 @endsection

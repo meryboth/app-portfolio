@@ -26,16 +26,16 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand m-2" href="{{'index'}}"><img src="https://icongr.am/fontawesome/rocket.svg?size=80&color=c20000" alt=""></a>
+            <a class="navbar-brand m-2" href="{{ route('landing') }}"><img src="https://icongr.am/fontawesome/rocket.svg?size=80&color=c20000" alt=""></a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-dark" href="{{'coleccion'}}">Coleccion</a>
+                <a class="nav-link text-dark" href="{{ route('coleccion') }}">Coleccion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="{{'nosotros'}}">Nosotros</a>
+                <a class="nav-link text-dark" href="{{ route('nosotros') }}">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="{{'contacto'}}">Contacto</a>
+                <a class="nav-link text-dark" href="{{ route('contacto') }}">Contacto</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -47,13 +47,9 @@
       </nav>
        
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <div class="row justify-content-center">
-                @yield('content')
-            </div>
-        </div>
-    </section>
+
+        @yield('content')
+
 
         <footer class="page-footer font-small blue pt-2 bg-light">
 
