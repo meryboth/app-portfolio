@@ -31,7 +31,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <img src="https://icongr.am/fontawesome/rocket.svg?size=80&color=c20000" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,6 +47,18 @@
                                     <a class="nav-link" href="{{ route('proyectos.index') }}">{{ __('Proyectos') }}</a>
                                 </li>
                             @endif
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="{{ url('/perfil') }}">Perfil</a>
+                              </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="{{ route('coleccion') }}">Coleccion</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-dark" href="{{ route('nosotros') }}">Nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-dark" href="{{ route('contacto') }}">Contacto</a>
+                              </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

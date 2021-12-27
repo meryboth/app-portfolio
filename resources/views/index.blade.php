@@ -7,7 +7,7 @@
         <p class="text-end">Comparte tus proyectos de forma estética, simple y práctica. Genera tu portfolio profesional en pocos minutos y compártelo en la web para llegar a más colegas y profesionales de tu industria.</p>
         <div class="d-flex flex-row-reverse">
             <button class="btn btn-danger m-1">
-                <a class="text-white" href="{{("register") }}">Crear cuenta</a>
+                <a class="text-white" href="{{ route('register') }}">Crear cuenta</a>
             </button>
             <button class="btn btn-danger m-1">
                 <a class="text-white" href="{{("coleccion") }}">Ver Colección</a>

@@ -39,8 +39,8 @@
               </li>
             </ul>
             <form class="d-flex">
-                <button class="btn btn-outline-danger m-1 text-dark" type="submit"><a href="{{'login'}}">Login</a></button>
-              <button class="btn btn-outline-danger m-1 bg-danger text-dark" type="submit"><a href="{{'registrarse'}}">Registrarse</a></button>
+                <button class="btn btn-outline-danger m-1 text-dark" type="submit"><a href="{{ route('login') }}">Login</a></button>
+              <button class="btn btn-outline-danger m-1 bg-danger text-dark" type="submit"><a href="{{ route('register') }}">Registrarse</a></button>
             </form>
           </div>
         </div>
