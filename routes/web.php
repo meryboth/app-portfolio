@@ -13,13 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Ruta que tengo que cambiar por la url de proyectos de perfil del usuario */
-Route::get('/', [App\Http\Controllers\PortafolioController::class, 'index']);
+/* Ruta perfil del usuario */
+Route::get('/perfil', [App\Http\Controllers\PortafolioController::class, 'index']);
 
 Auth::routes();
 
-Route::resource('/proyectos', App\Http\Controllers\ProyectoController::class);
+Route::get('/', function () {
+    return view('index');
+})->name('landing');
 
+/* Ruta agregar proyectos */
+Route::resource('/proyectos', App\Http\Controllers\ProyectoController::class);
+/* Ruta dashboard del usuario al loguearse */
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
