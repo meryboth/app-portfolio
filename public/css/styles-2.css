@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap');
+
+
+
+/* general setting */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h5 {
+    font-weight: 800;
+}
+
+/* FOOTER */
+
+.footer__logo img{
+    width: 50px;
+}
+
+/* INDEX */
+
+.main__title img {
+    width: 200px;
+}
+
+.box {
+    border: solid 1px #242424;
+}
+
+/* COLECCION */
+
+
+/* search bar */
+
+.search {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #0F077E;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #0F077E;
+}
+
+.searchTerm:focus{
+  color: #0F077E;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0F077E;
+  background: #0F077E;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.btn__portfolio {
+    background-color: #0F077E;
+}
+.btn__portfolio:hover {
+    background-color: #dc3545;
+}
+
+
+/* CONTACTO */
+
+.form__img img{
+    width: 600px;
+}
+
+/* NOSOTROS */
+
+.nosotros__title img{
+    width: 600px;
+}
+
+/* PERFIL */
+
+.portfolio-item {
+    max-width: 100px!important;
+}
