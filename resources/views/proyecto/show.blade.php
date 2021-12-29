@@ -21,15 +21,15 @@
                 <div class="card-body">
 
                     <div class="form-group">
-                        <strong>Nombre:</strong>
+                        <strong>Nombre: </strong>
                         {{ $proyecto->nombre }}
                     </div>
                     <div class="form-group">
-                        
-                        <strong>Imagen:</strong>
-                        {{ $proyecto->imagen }}
-
+                        <strong>Imagen: </strong>
+                        <img style="display:block; width:100px; height: 100px;" id="base64image" 
+                        src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
                     </div>
+
                     <div class="form-group">
                         <strong>Descripcion:</strong>
                         {{ $proyecto->descripcion }}

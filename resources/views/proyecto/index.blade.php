@@ -50,7 +50,8 @@
                                             <td>{{ ++$i }}</td>
                                             
 											<td>{{ $proyecto->nombre }}</td>
-											<td>{{ $proyecto->imagen }}</td>
+											<!-- <td>{{ $proyecto->imagen }}</td> -->
+                                            <td> <strong>Imagen: </strong> <img style="display:block; width:100px; height: 100px;" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}"> </td>
 											<td>{{ $proyecto->descripcion }}</td>
 											<td>{{ $proyecto->url }}</td>
 

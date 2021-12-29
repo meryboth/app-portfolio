@@ -53,10 +53,9 @@
         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
             <div class="portfolio-item-caption-content text-center text-white"><h4>{{ $proyecto->nombre }}</h4></div>
         </div>
-        <!-- <img class="img-fluid" src="{{ $proyecto->imagen }}" alt="..." /> -->
-        <img style='display:block; width:100px;height:100px;' id='base64image'
-       src='data:image/jpeg;base64, LzlqLzRBQ... <!-- Base64 data -->' />
-
+        <strong>Imagen: </strong>
+                            <img style="display:block; width:100px; height: 100px;" id="base64image" 
+                        src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
     </div>
 </div>
 
@@ -74,9 +73,10 @@
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-4">{{ $proyecto->descripcion }}</p>
                             <!-- Portfolio Modal - Image-->
-                            <!-- <img class="img-fluid" src="{{ $proyecto->imagen }}" alt="..." /> -->
-        <img style='display:block; width:100px;height:100px;' id='base64image'
-       src='data:image/jpeg;base64, LzlqLzRBQ... <!-- Base64 data -->' />
+                            <strong>Imagen: </strong>
+                            <img style="display:block; width:100px; height: 100px;" id="base64image" 
+                        src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
+      
 
                             <a class="btn btn-danger" href="{{ $proyecto->url }}" target="_blank">
                                 Visitar proyecto
