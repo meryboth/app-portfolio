@@ -20,14 +20,14 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Proyecto extends Model
 {
-    
+    /* ORIGINAL DE MAR
     static $rules = [
 		'nombre' => 'required',
 		'imagen' => 'required',
 		'descripcion' => 'required',
 		'url' => 'required',
     ];
-
+*/
     protected $perPage = 20;
 
     /**
@@ -35,7 +35,7 @@ class Proyecto extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre','imagen','descripcion','url'];
+  protected $fillable = ['nombre','imagen','descripcion','url'];
 
 
 

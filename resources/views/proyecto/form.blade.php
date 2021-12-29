@@ -8,7 +8,7 @@
         </div>
         <div class="form-group">
             {{ Form::label('imagen') }}
-            {{ Form::text('imagen', $proyecto->imagen, ['class' => 'form-control' . ($errors->has('imagen') ? ' is-invalid' : ''), 'placeholder' => 'Imagen']) }}
+            {{ Form::file('imagen', $proyecto->imagen, ['class' => 'form-control' . ($errors->has('imagen') ? ' is-invalid' : ''), 'placeholder' => 'Imagen']) }}
             {!! $errors->first('imagen', '<div class="invalid-feedback">:message</p>') !!}
         </div>
         <div class="form-group">
@@ -18,7 +18,7 @@
         </div>
         <div class="form-group">
             {{ Form::label('url') }}
-            {{ Form::text('url', $proyecto->url, ['class' => 'form-control' . ($errors->has('url') ? ' is-invalid' : ''), 'placeholder' => 'Url']) }}
+            {{ Form::text('url', $proyecto->url, ['class' => 'form-control' . ($errors->has('url') ? ' is-invalid' : ''), 'placeholder' => 'Url de proyecto']) }}
             {!! $errors->first('url', '<div class="invalid-feedback">:message</p>') !!}
         </div>
     </div>

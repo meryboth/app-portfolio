@@ -18,7 +18,7 @@ class Proyectos extends Migration
             $table->bigIncrements('id');
             
             $table->string('nombre');
-            $table->string('imagen');
+            $table->binary('imagen');
             $table->string('descripcion');
             $table->string('url');
            
