@@ -17,9 +17,6 @@
         @if (Route::has('login'))
             <h4 class="text-center fw-bold m-1"><a href="{{ route('login') }}">{{ __('Login') }}</a></h4>
         @endif
-        @if (Route::has('register'))
-        <h4 class="text-center fw-bold m-1"><a href="{{ route('register') }}">{{ __('Register') }}</a></h4>
-        @endif
     @else
     <h4 class="text-center fw-bold m-1">{{ Auth::user()->name }}</h4>
     @endguest
@@ -94,7 +91,7 @@
         <a href="{{ route('proyectos.index') }}" class="text-decoration-none">
             <div class="rounded shadow-sm text-center">
                 <img src="https://icongr.am/fontawesome/plus.svg?size=50&color=c20000" alt="" class="align-self-center">
-                <h4 class="text-dark">Nuevo Portfolio</h4>
+                <h4 class="text-dark">Nuevo proyecto</h4>
         </a>
         </div>
       </div>
