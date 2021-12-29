@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group">
                         <strong>Imagen: </strong>
-                        <img style="display:block; width:100px; height: 100px;" id="base64image" 
+                        <img style="display:block; width:200px; height: 200px;" id="base64image" 
                         src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
                     </div>
 

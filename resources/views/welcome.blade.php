@@ -53,8 +53,8 @@
         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
             <div class="portfolio-item-caption-content text-center text-white"><h4>{{ $proyecto->nombre }}</h4></div>
         </div>
-        <strong>Imagen: </strong>
-                            <img style="display:block; width:100px; height: 100px;" id="base64image" 
+      
+                            <img style="display:block; width:200px; height: 200px;" id="base64image" 
                         src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
     </div>
 </div>
@@ -73,8 +73,8 @@
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-4">{{ $proyecto->descripcion }}</p>
                             <!-- Portfolio Modal - Image-->
-                            <strong>Imagen: </strong>
-                            <img style="display:block; width:100px; height: 100px;" id="base64image" 
+                          
+                            <img style="display:block; width:200px; height: 200px;" id="base64image" 
                         src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
       
 
