@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Proyecto;
 use Illuminate\Http\Request;
 
+
 /**
  * Class ProyectoController
  * @package App\Http\Controllers
@@ -47,12 +48,24 @@ class ProyectoController extends Controller
      */
     public function store(Request $request)
     {
+        $nombre = $request->post("nombre");
+        $imagen = base64_encode(file_get_contents($request->file('imagen')->path()));
+        $descripcion = $request->post("descripcion");
+        $url = $request->post("url");
+        
+        FacadesDB::insert("INSERT INTO proyectos (nombre, imagen, descripcion, url ) VALUES (?,?,?,?)", [$nombre,$imagen,$descripcion,$url]);
+
+        return redirect()->route('proyectos.index')
+            ->with('success', 'Proyecto created successfully.');
+
+/* ORIGINAL DE MAR
         request()->validate(Proyecto::$rules);
 
         $proyecto = Proyecto::create($request->all());
 
         return redirect()->route('proyectos.index')
             ->with('success', 'Proyecto created successfully.');
+            */
     }
 
     /**
@@ -90,7 +103,7 @@ class ProyectoController extends Controller
      */
     public function update(Request $request, Proyecto $proyecto)
     {
-        request()->validate(Proyecto::$rules);
+       /* request()->validate(Proyecto::$rules);*/
 
         $proyecto->update($request->all());
 
