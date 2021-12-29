@@ -12,6 +12,8 @@
     <!-- Plantilla propia CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styles-2.css') }}">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
 
     <title>App Portfolio</title>
     

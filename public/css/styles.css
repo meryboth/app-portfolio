@@ -18,8 +18,8 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #1abc9c;
+  /* --bs-green: #198754;
+  --bs-teal: #1abc9c; */
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -11463,9 +11463,7 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
-  height: 20rem;
   border-radius: 0.5rem;
-  object-fit: cover;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -11474,7 +11472,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: var(--bs-danger);
+  background-color: rgb(188, 26, 61);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;

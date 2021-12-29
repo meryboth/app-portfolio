@@ -16,9 +16,12 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/styles-2.css" rel="stylesheet" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -106,6 +109,83 @@
             @yield('content')
         </main>
     </div>
+    <footer class="page-footer font-small blue pt-2 bg-light">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mt-md-0 mt-3 mb-3 footer__logo">
+      
+              <!-- Content -->
+              <img src="{!! asset('images/clip-175.png')!!}" alt="" width="50px">
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li class="nav-item">
+                <a class="nav-link text-dark" href="{{'coleccion'}}">Coleccion</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-dark" href="{{'nosotros'}}">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-dark" href="{{'contacto'}}">Contacto</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-4 col-md-12 col-xs-12 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h5 class="text-uppercase">Redes</h5>
+      
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li class="m-1">
+                  <a href="#!"><img src="https://icongr.am/fontawesome/facebook-official.svg?size=30&color=c20000" alt=""></a>
+                </li>
+                <li class="m-1">
+                  <a href="#!"><img src="https://icongr.am/fontawesome/instagram.svg?size=30&color=c20000" alt=""></a>
+                </li>
+                <li class="m-1">
+                  <a href="#!"><img src="https://icongr.am/fontawesome/twitter-square.svg?size=30&color=c20000" alt=""></a>
+                </li>
+                <li class="m-1">
+                  <a href="#!"><img src="https://icongr.am/fontawesome/linkedin-square.svg?size=30&color=c20000" alt=""></a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+          <p class="m-0">All <strong>illustrations</strong> are from <a href="https://iconos8.es/">Iconos8</a>
+          </p>
+          <p class="m-0">All <strong>images</strong> are from <a href="https://unsplash.com/">Unspash</a></p>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
     
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

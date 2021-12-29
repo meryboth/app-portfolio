@@ -24,8 +24,8 @@
           <h5 class="mb-0">Diego Martinez Giardini</h5>
           <p class="small text-muted">FullStack Dev</p>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item m-0"><a href="https://github.com/kida10-tech" class="social-link" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/martinezgiardinidiego/" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item m-0"><a href="https://github.com/kida10-tech" class="social-link" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/martinezgiardinidiego/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
@@ -40,8 +40,8 @@
           <h5 class="mb-0">Marilyn Botheatoz</h5>
           <p class="small text-muted">FullStack Dev</p>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item m-0"><a href="https://github.com/meryboth" class="social-link" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/marilyn-botheatoz/" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item m-0"><a href="https://github.com/meryboth" class="social-link" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/marilyn-botheatoz/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
@@ -51,13 +51,13 @@
   <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4 mb-lg-0">
     <!-- Card-->
     <div class="card shadow-sm border-0 rounded m-3" style="height: 330px;">
-      <div class="card-body p-0"><img src="https://via.placeholder.com/150" alt="" class="w-100 card-img-top">
+      <div class="card-body p-0"><img src="{!! asset('images/ignacio.jpg')!!}" alt="" class="w-100 card-img-top">
         <div class="p-4 text-center">
           <h5 class="mb-0">Ignacio Valdivia</h5>
           <p class="small text-muted">FullStack Dev</p>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-github"></i></a></li>
-            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fab fa-github"></i></a></li>
+            <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
@@ -72,8 +72,8 @@
              <h5 class="mb-0">María Macarena Hanna Arenas</h5>
              <p class="small text-muted">FullStack Dev</p>
              <ul class="social mb-0 list-inline mt-3">
-               <li class="list-inline-item m-0"><a href="https://github.com/MacaHannaArenas" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>
-               <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/mar%C3%ADa-macarena-hanna-arenas/" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://github.com/MacaHannaArenas" target="_blank" class="social-link"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/mar%C3%ADa-macarena-hanna-arenas/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a></li>
              </ul>
            </div>
          </div>
@@ -88,8 +88,8 @@
              <h5 class="mb-0">Eduardo Londero</h5>
              <p class="small text-muted">FullStack Dev</p>
              <ul class="social mb-0 list-inline mt-3">
-               <li class="list-inline-item m-0"><a href="https://github.com/Eduardo-Londero" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>
-               <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://github.com/Eduardo-Londero" target="_blank" class="social-link"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item m-0"><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
              </ul>
            </div>
          </div>
@@ -104,8 +104,8 @@
              <h5 class="mb-0">Juan Bossetti</h5>
              <p class="small text-muted">FullStack Dev</p>
              <ul class="social mb-0 list-inline mt-3">
-               <li class="list-inline-item m-0"><a href="https://github.com/JuanBossetti" class="social-link" target="_blank"><i class="fa fa-github"></i></a></li>
-               <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/juan-bossetti-56a103194/" target="_blank" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://github.com/JuanBossetti" class="social-link" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item m-0"><a href="https://www.linkedin.com/in/juan-bossetti-56a103194/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a></li>
              </ul>
            </div>
          </div>
