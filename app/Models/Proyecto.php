@@ -20,14 +20,14 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Proyecto extends Model
 {
-    
+    /* ORIGINAL MAR, YA NO VA MAS
     static $rules = [
 		'nombre' => 'required',
 		'imagen' => 'required',
 		'descripcion' => 'required',
 		'url' => 'required',
     ];
-
+*/
     protected $perPage = 20;
 
     /**
