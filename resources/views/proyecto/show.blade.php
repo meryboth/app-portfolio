@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group">
                         <strong>Imagen: </strong>
-                        <img style="display:block; width:200px; height: 200px;" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
+                        <img class="img-fluid rounded mb-5" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
                     </div>
                     <div class="form-group">
                         <strong>Descripcion:</strong>

@@ -52,7 +52,7 @@ Perfil
                             <h4>{{ $proyecto->nombre }}</h4>
                         </div>
                     </div>
-                    <img style="display:block; width:200px; height: 200px;" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
+                    <img class="img-fluid rounded mb-5" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ Perfil
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4">{{ $proyecto->descripcion }}</p>
                                         <!-- Portfolio Modal - Image-->
-                                        <img style="display:block; width:200px; height: 200px;" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
+                                        <img class="img-fluid rounded mb-5" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}">
                                         <a class="btn btn-danger" href="{{ $proyecto->url }}" target="_blank">
                                             Visitar proyecto
                                         </a>

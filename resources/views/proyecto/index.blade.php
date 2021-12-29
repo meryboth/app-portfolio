@@ -51,7 +51,7 @@
                                             
 											<td>{{ $proyecto->nombre }}</td>
 												<!-- <td>{{ $proyecto->imagen }}</td> -->
-                                                <td> <img style="display:block; width:100px; height: 100px;" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}"> </td>
+                                                <td> <img class="img-fluid rounded mb-5" id="base64image" src="data:image/jpeg;base64, {{ $proyecto->imagen }}"> </td>
 											
 											<td>{{ $proyecto->descripcion }}</td>
 											<td>{{ $proyecto->url }}</td>
